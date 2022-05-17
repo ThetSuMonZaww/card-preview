@@ -1,0 +1,49 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+@import "node_modules/animate.css/animate.min.css";
+
+.body-bg{
+  background-color: #0d1a2d;
+}
+
+.round{
+  border-radius: 1.5em;
+}
+
+.card{
+  background-color: #15273e;
+}
+
+.font-base-size{
+  font-size: 14px;
+}
+
+.text-ethereum{
+  color: #08fcfc;
+  font-size: 11px;
+}
+
+.text-clock{
+  color: #90acdc;
+  font-size: 11px;
+}
+
+.text-clock-color{
+  color: #90acdc;;
+}
+
+.text-avatar{
+  font-size: 11px;
+  color: whitesmoke;
+}
+
+.avatar-img{
+  height: 25px;
+}
+
+.equilibrium:hover{
+  cursor:pointer;
+  animation: flip;
+  animation-duration: 3s;
+}
+
